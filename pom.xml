@@ -97,7 +97,7 @@
                 <consoleOutput>true</consoleOutput>
                 <configLocation>${project.basedir}/checkstyle-rules.xml</configLocation>
                 <suppressionsLocation>${project.basedir}/checkstyle-suppressions.xml</suppressionsLocation>
-                <failsOnError>true</failsOnError>
+                <failsOnError>false</failsOnError>
             </configuration>
             <executions>
                 <execution>
